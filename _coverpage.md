@@ -1,5 +1,5 @@
 # 数学之旅
-![logo](_media/learning.jpeg)
+![logo](media/learning.jpeg)
 
 ## 物理、化学的数学工具
 
