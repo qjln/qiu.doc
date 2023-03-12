@@ -1,8 +1,8 @@
-# 标题
+# 数学之旅
 
-## 小标题
+## 物理、化学的数学工具
 
-> 简介
+> 教材、课程知识汇总
 
-[地址](https://www.baidu.com) [开始阅读](#Headline)
+[微信公众号]([https://www.baidu.com](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkzNDMwNjE1MQ==&action=getalbum&album_id=2642954314428481540&scene=126#wechat_redirect)) [开始阅读](#Headline)
 
