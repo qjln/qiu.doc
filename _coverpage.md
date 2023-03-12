@@ -1,5 +1,5 @@
 # 数学之旅
-![logo](media/learning.jpeg)
+<img src="https://raw.githubusercontent.com/qjln/images/main/img/202303130031747.jpeg" alt="learning" style="zoom:10%;" />
 
 ## 物理、化学的数学工具
 
