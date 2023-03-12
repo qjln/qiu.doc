@@ -1,4 +1,4 @@
-# About this document
+# Happy journey
 
 > 知识记录，主要为物理、化学等的数学工具
 
