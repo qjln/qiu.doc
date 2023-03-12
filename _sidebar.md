@@ -1,4 +1,4 @@
-- [chapter-1](files/chapter-1.md)
+- [chapter-1](files/section-1.md)
   - [section-1](files/section-1.md) 
   - [section-2](files/section-2.md) 
   - [section-3](files/section-3.md)
