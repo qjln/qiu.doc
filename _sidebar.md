@@ -2,3 +2,6 @@
   - [section-1](files/section-1.md) 
   - [section-2](files/section-2.md) 
   - [section-3](files/section-3.md)
+- [待整理]
+  - [向量空间、张量](files/向量空间、张量.md) 
+  - [向量微分算符](files/向量微分算符.md) 
