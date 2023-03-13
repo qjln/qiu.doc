@@ -1,5 +1,5 @@
 # Happy journey of mathematics
-<img src="https://github.com/qjln/qiu_doc/blob/main/media/learning.png" alt="learning" style="zoom:30%;" />
+<img src="https://github.com/qjln/qiu_doc/blob/main/media/learning.png?raw=true" alt="learning" style="zoom:30%;" />
 
 ## 物理、化学数学工具锦集
 
