@@ -10,58 +10,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <!-- 默认主题 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <!-- 支持LaTeX数学公式 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
-  <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
-  <!-- 支持回到顶部 -->
-  <script src="//i2.wp.com/wugenqiang.github.io/CS-Notes/plugin/jquery.js"></script>
-  <script src="//i2.wp.com/wugenqiang.github.io/CS-Notes/plugin/jquery.goup.js"></script>
-  
-  <style>
-        /*侧边栏*/
-    .sidebar {
-      padding-top: 6px;
-    }
-
-    aside.sidebar ul li {
-      margin: 0;
-      position: relative;
-    }
-
-    aside.sidebar ul li ul {
-      margin: 6px 0;
-    }
-
-    aside.sidebar ul li p {
-      padding-left: 22px;
-      font-size: 18px;
-      font-weight: normal;
-    }
-
-    aside.sidebar ul li a {
-      line-height: 35px;
-      font-size: 14px;
-      padding: 3px 0 3px 22px;
-    }
-
-    aside.sidebar ul li.active > a {
-      font-size: 16px !important;
-    }
-
-    aside.sidebar ul li.active > a:before {
-      content: '' !important;
-      position: absolute !important;
-      margin: 0 !important;
-      width: 10px !important;
-      height: 10px !important;
-      top: 15px !important;
-      left: 0px !important;
-      border-radius: 50% !important;
-      background-color: #fed24a !important;
-      box-shadow: 0 0 0 3px rgba(254, 210, 74, 0.4) !important;
-    }
-  </style>   
 </head>
   
 <body>
@@ -72,8 +20,6 @@
       name: 'Happy journey', // 项目名称
       repo: 'https://github.com/qjln/qiu_doc', // 仓库地址，点击右上角的Github头像会跳转到此地址
       themeColor: '#007be8', // 主题颜色
-      auto2top: true,  //当路线改变时,滚动到屏幕的顶部
-      executeScript: true, //执行页面上的脚本。只解析第一个脚本标记（演示）。如果存在Vue，则默认开
       externalLinkTarget: '_blank', //外链打开方式：_blank表示在新标签页中打开
       topMargin: 60, //调整top
       // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
@@ -108,28 +54,7 @@
         pre: '<hr/>',
         style: 'text-align: left;',
       },//添加页脚
-      plugins: [
-        /*来必力评论*/
-        function (hook, vm) {
-          // load livere
-          hook.beforeEach(function(content) {
-            var comment = "<div id='lv-container' data-id='city' data-uid='MTAyMC80MzA4MC8xOTYyNg=='></div>\n\n----\n"
-            return content + comment;
-          });
-
-          hook.doneEach(function() {
-            (function(d, s) {
-              var j, e = d.getElementsByTagName(s)[0];
-              if (typeof LivereTower === 'function') { return; }
-              j = d.createElement(s);
-              j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-              j.async = true;
-              e.parentNode.insertBefore(j, e);
-            })(document, 'script');
-          });
-        },
-      ],
-      
+ 
       }
   </script>
   
@@ -139,8 +64,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- docsify的js依赖 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <!-- 文章内导航 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-toc@1.0.0/dist/toc.js"></script>
   <!-- emoji表情支持 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <!-- 图片放大缩小支持 -->
@@ -149,27 +72,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!--在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码-->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-  <!-- 回到顶部功能 -->
-  <script src="https://notebook.js.org/plugin/jquery.js"></script>
-  <script src="https://notebook.js.org/plugin/jquery.goup.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $.goup({
-        trigger: 100,
-        bottomOffset: 52,
-        locationOffset: 25,
-        //title: 'TOP',
-        titleAsText: true
-      });
-    });
-  </script>
-  
-  <!-- 实现离线化 -->
-  <script>
-    if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('pwa.js')
-    }
-  </script>
 
 </body>
 </html>
