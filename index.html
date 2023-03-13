@@ -76,7 +76,6 @@
   <div id="app">Loading...</div>
   <script>
     window.$docsify = {
-      disqus: 'shortname',
       name: 'Happy journey', // 项目名称
       repo: 'https://github.com/qjln/qiu_doc', // 仓库地址，点击右上角的Github头像会跳转到此地址
       themeColor: '#007be8', // 主题颜色
@@ -110,12 +109,18 @@
                 hideOtherSidebarContent: false,
                 namespace: '',
               },
+      pagination: {
+        previousText: '上一章节',
+        nextText: '下一章节',
+        crossChapter: true,
+        crossChapterText: true,
+      }, //分页导航插件配置
       footer: {
         copy: '<center><div class = "over" >🌸--------------------完结--------------------🌸</div><br/></center>',
         auth: '<right><div class = "over" >青衿莫把时光负——qiu</div><br/></right>',
         pre: '<hr/>',
         style: 'text-align: left;',
-      },//添加页脚
+      }, //添加页脚
  
       }
   </script>
@@ -148,8 +153,8 @@
   </script>
   <!-- 添加页脚 -->
   <script src="https://notebook.js.org/plugin/docsify-footer-enh.min.js"></script>
-  <!-- Disqus 评论 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
+  # 分页导航插件引入
+<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
 </body>
 </html>
