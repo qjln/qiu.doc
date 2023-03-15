@@ -1,7 +1,7 @@
 # Happy journey of learning
 <img src="/lib/img/learning.png" alt="learning" style="zoom:21%;" />
 
-## 知识、工具锦集
+# 知识、工具锦集
 
 > From books, courses, website etc
 
