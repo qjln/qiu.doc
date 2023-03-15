@@ -1,5 +1,5 @@
 # Happy journey of learning
-<img src="/lib/img/learning.png" alt="learning" style="zoom:21%;" />
+<img src="https://github.com/qjln/qiu_doc/blob/main/lib/img/learning.png?raw=true" alt="learning" style="zoom:21%;" />
 
 # 知识、工具锦集
 
